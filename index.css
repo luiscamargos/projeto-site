@@ -1,0 +1,258 @@
+* { margin: 0;}
+html{
+  scroll-behavior: smooth;
+  text-align: center;
+  width: 100%;
+  list-style: none;
+  display: table-cell;
+  vertical-align: bottom;
+background-image: url(tijolo.jpg);
+padding: 0px;
+
+}
+body{
+color: rgba(255, 255, 255, 0.594); 
+padding: 0;
+font: white;
+text-align: center;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 12rem;
+  position: fixed;
+  height: 5rem;
+  width: 100%;
+  transition: all 0.5;
+  cursor: pointer;
+  font: 15pt Impact, fantasy;
+  box-sizing: border-box;
+  font-family: Saira, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  transition: .3s ease;
+  a{
+    color:rgb(248, 211, 162);
+  }
+}
+.nav ul:hover{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}  
+li{
+      text-shadow:#000000 5px 5px 10px;
+      background-color: none;
+      color: none; 
+      transition: all 0.9s;
+      cursor: pointer;
+      font: 15pt Copperplate Gothic;
+      background-color:none  ;
+      border: none;
+      color:none; 
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 18px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background-color all 0.9s ease;
+      
+}
+.li:hover{
+             -webkit-filter: drop-shadow(15px 20px 10px rgba(0,0,0,.0));
+             filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+             -webkit-transform: scale(1.4);
+             transform: scale(1.4);
+     
+}
+section{
+  min-height: 100vh;
+  padding-top: 5rem;
+  padding: 15px;
+  align-items: center;
+}
+#inicio{
+  background-image: url('fundo.jpeg');
+  text-align: center;
+  font: 12pt Arial, fantasy;
+  color:rgb(248, 211, 162) ;
+  position: center;  
+  align-items: center;
+  p{
+    font: 15pt Impact, fantasy;
+  }
+  img{
+    display: flex;
+    animation: rotate 30s linear infinite;
+    }
+    
+}
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(359deg);
+    }
+}
+#sobre{
+  background-image: url(sa.png);
+    padding: 15px;
+    text-decoration-color: cyan;
+    text-align: center;
+    color:  rgb(248, 211, 162);
+    align-items: center;
+    display: flex;
+    gap: 5rem;
+    p{
+      font: 15pt Copperplate Gothic;
+    }
+    img{
+        width: 600px;
+        height: 300px;
+        border-radius: 20%;
+}
+.div.sobre{
+  display: flex;
+}
+}
+#contato{
+  background-image: url(92.jpg);
+  text-align: center;
+  font: 16pt Arial, fantasy;
+  color:rgb(248, 211, 162) ;
+  align-items: center;
+  align-self: center;
+  gap: 15rem;
+img{
+     width: 48px;
+    height: 48px;
+}
+ img.src{
+  height: 300px;
+  width: 300px;
+ }
+ .a{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 700rem;
+  position: fixed;
+  height: 4rem;
+  width: 100%;
+  font: 15pt Impact, fantasy;
+  box-sizing: border-box;
+  font-family: Saira, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+ }
+}
+#produtos{
+  background-image: url(93.jpg);
+  text-align: center;
+  font: 30pt Impact, fantasy;
+  color:  rgb(248, 211, 162);
+  align-items: center;
+  align-self: center;
+  gap: 15rem;
+  p{
+    font: 20pt Copperplate Gothic;
+  }
+  img{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }
+  a{
+   
+  text-decoration: none;
+  text-shadow:black 5px 5px 10px;
+  background-color: none;
+  color:  none; 
+  transition: all 0.9s;
+  cursor: pointer;
+  font: 15pt Copperplate Gothic;
+  background-color:none ;
+  border: none;
+  color: rgb(255, 255, 255); 
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.9s;
+  cursor: pointer;
+ 
+}
+a:hover{
+         -webkit-filter: drop-shadow(15px 20px 10px rgba(0,0,0,.0));
+         filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+         -webkit-transform: scale(1.4);
+         transform: scale(1.4);
+} 
+  }
+
+footer{
+  background-color: #ffffff;
+  color: #000000;
+  text-shadow: 0px 0px 0px;
+  position: fixed;
+}
+  h1{
+    font: 20pt Copperplate Gothic;
+}
+a{
+  text-decoration: none;
+  text-shadow:black 5px 5px 10px;
+  background-color: none;
+  color:  none; 
+  transition: all 0.9s;
+  cursor: pointer;
+  font: 15pt Copperplate Gothic;
+  background-color:none ;
+  border: none;
+  color: rgba(255, 255, 255, 0.594); 
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.9s;
+  cursor: pointer;
+ 
+}
+a:hover{
+         -webkit-filter: drop-shadow(15px 20px 10px rgba(0,0,0,.0));
+         filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+         -webkit-transform: scale(1.4);
+         transform: scale(1.4);
+}
+.scroll-section{
+  background-color: rgb(162, 53, 53);
+  border: none;
+ color: rgba(213, 211, 211, 0.932); 
+  padding: 5px 20px; 
+  float:none;
+  margin-right: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 7px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  
+}
